@@ -15,6 +15,7 @@ public class View extends JFrame {
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     this.setSize(600, 400);
     this.setResizable(false);
+    mounthTextField.setEditable(false);
     mounthPanel.setBackground(Color.BLUE);
     mounthPanel.add(mounthLabel);
     mounthPanel.add(mounthTextField);
